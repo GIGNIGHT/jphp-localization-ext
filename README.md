@@ -41,7 +41,7 @@ try
     $config = array
     (
       'key'      => '123',
-      'app.name' => 'Test',
+      'app.name' => 'Test'
     );
     
     $localization->setAll($config);
