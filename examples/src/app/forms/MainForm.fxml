@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464" prefWidth="624" styleClass="">
+  <children>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="8" layoutY="40" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="418" prefWidth="608" styleClass="" titleColor="#ffffff" titleOffset="0" titlePosition="TOP_LEFT">
+      <children>
+        <Rectangle arcHeight="0" arcWidth="0" fill="#333333" focusTraversable="false" height="418" id="rect" layoutX="0" layoutY="0" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="248"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="264" layoutY="40" prefHeight="22.480001449585" prefWidth="273.40002441406" style="-fx-font-size: 20;" text="Log into Simple Multilanguage" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="Plumb-Bold" size="20"/>
+          </font>
+          <styleClass xmlns:fx="http://javafx.com/fxml">
+            <String fx:value="label"/>
+            <String fx:value="dark"/>
+            <String fx:value="header"/>
+          </styleClass>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="264" layoutY="64" prefHeight="15.60000038147" prefWidth="179.27003479004" styleClass="label dark " text="Enter your login details below." textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="Exo 2.0" size="13"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+        <VBox alignment="CENTER" focusTraversable="false" id="vbox" layoutX="264" layoutY="96" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="136" prefWidth="232" spacing="25" styleClass="">
+          <children>
+            <VBox alignment="TOP_LEFT" focusTraversable="false" id="vbox3" layoutX="0" layoutY="8" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="48" prefWidth="232" spacing="0" styleClass="">
+              <children>
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="0" layoutY="0" prefHeight="16" prefWidth="96" text="EMAIL ADDRESS" textAlignment="LEFT" underline="false" wrapText="false">
+                  <font>
+                    <Font name="Exo 2.0" size="11"/>
+                  </font>
+                  <styleClass xmlns:fx="http://javafx.com/fxml">
+                    <String fx:value="label"/>
+                    <String fx:value="dark"/>
+                    <String fx:value="little"/>
+                  </styleClass>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label8" visible="1"/>
+                <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="0" layoutY="16" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="" text="admin@gignight.ru">
+                  <styleClass xmlns:fx="http://javafx.com/fxml">
+                    <String fx:value="text-input"/>
+                    <String fx:value="text-field"/>
+                    <String fx:value="label"/>
+                    <String fx:value="dark"/>
+                  </styleClass>
+                  <font>
+                    <Font name="Exo 2.0" size="13"/>
+                  </font>
+                </TextField>
+                <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+              </children>
+            </VBox>
+            <VBox alignment="TOP_LEFT" focusTraversable="false" id="vboxAlt" layoutX="0" layoutY="81" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="48" prefWidth="232" spacing="0" styleClass="">
+              <children>
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="0" layoutY="0" prefHeight="16" prefWidth="96" text="PASSWORD" textAlignment="LEFT" underline="false" wrapText="false">
+                  <font>
+                    <Font name="Exo 2.0" size="11"/>
+                  </font>
+                  <styleClass xmlns:fx="http://javafx.com/fxml">
+                    <String fx:value="label"/>
+                    <String fx:value="dark"/>
+                    <String fx:value="little"/>
+                  </styleClass>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label7" visible="1"/>
+                <PasswordField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="passwordField" layoutX="0" layoutY="16" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="" text="12345678">
+                  <font>
+                    <Font name="Exo 2.0" size="13"/>
+                  </font>
+                  <styleClass xmlns:fx="http://javafx.com/fxml">
+                    <String fx:value="text-input"/>
+                    <String fx:value="text-field"/>
+                    <String fx:value="password-field"/>
+                    <String fx:value="label"/>
+                    <String fx:value="dark"/>
+                  </styleClass>
+                </PasswordField>
+                <Data cursor="DEFAULT" enabled="1" id="data-passwordField" visible="1"/>
+              </children>
+            </VBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-vboxAlt" visible="1"/>
+            <Data cursor="DEFAULT" enabled="1" id="data-vbox3" visible="1"/>
+          </children>
+        </VBox>
+        <Data cursor="DEFAULT" enabled="1" id="data-vbox" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="8" layoutY="8" prefHeight="32" prefWidth="96" styleClass="button " text="+ ADD" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="Plumb-Bold" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="264" layoutY="272" prefHeight="32" prefWidth="104" styleClass="button " text="SIGN IN" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="Plumb-Bold" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+        <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox" layoutX="264" layoutY="240" prefHeight="24" prefWidth="144" text="Remember me" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="Exo 2.0" size="11"/>
+          </font>
+          <styleClass xmlns:fx="http://javafx.com/fxml">
+            <String fx:value="check-box"/>
+            <String fx:value="label"/>
+            <String fx:value="dark"/>
+            <String fx:value="little"/>
+          </styleClass>
+        </CheckBox>
+        <Data cursor="DEFAULT" enabled="1" id="data-checkbox" visible="1"/>
+        <Hyperlink alignment="CENTER_RIGHT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="link" layoutX="375" layoutY="244" prefHeight="17" prefWidth="120" style="-fx-underline: true;" text="Forgot your password?" textAlignment="LEFT" wrapText="false">
+          <font>
+            <Font name="Exo 2.0" size="11"/>
+          </font>
+          <styleClass xmlns:fx="http://javafx.com/fxml">
+            <String fx:value="hyperlink"/>
+            <String fx:value="label"/>
+            <String fx:value="dark"/>
+            <String fx:value="little"/>
+          </styleClass>
+        </Hyperlink>
+        <Data cursor="DEFAULT" enabled="1" id="data-link" visible="1"/>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="0" layoutY="216" prefHeight="104" prefWidth="248" styleClass="label " text="A powerful, yet easy-to-use&#10;application for managing&#10;venue data. Copied :)" textAlignment="CENTER" underline="false" wrapText="true">
+          <font>
+            <Font name="Exo 2.0" size="13"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="0" layoutY="152" prefHeight="48" prefWidth="248" styleClass="label " text="A Simple Example of&#10;Multilanguage" textAlignment="CENTER" underline="false" wrapText="true">
+          <font>
+            <Font name="Exo 2.0" size="13"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="0" layoutY="136" prefHeight="18" prefWidth="248" styleClass="label header " text="Simple Multilanguage" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="Plumb-Bold" size="16"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="52" id="image" layoutX="96" layoutY="72" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="52">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/logo.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="Exo 2.0" size="13"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+  </children>
+</AnchorPane>

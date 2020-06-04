@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440" prefWidth="600" styleClass="">
+  <children>
+    <TableView editable="false" fixedCellSize="-1" focusTraversable="true" id="table" layoutX="0" layoutY="0" prefHeight="392" prefWidth="600" styleClass="table-view " tableMenuButtonVisible="false">
+      <placeholder>
+        <Label/>
+      </placeholder>
+      <columns>
+        <TableColumn id="key" maxWidth="5000" minWidth="10" prefWidth="200" resizable="true" sortable="false" style="-fx-alignment: center-left; " text="Ключ" visible="true"/>
+        <TableColumn id="translate" maxWidth="5000" minWidth="10" prefWidth="400" resizable="true" sortable="false" style="-fx-alignment: center-left; " text="Перевод" visible="true"/>
+      </columns>
+    </TableView>
+    <Data cursor="DEFAULT" enabled="1" id="data-table" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="8" layoutY="400" prefHeight="32" prefWidth="144" styleClass="button " text="Добавить" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Plumb-Bold" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="line" layoutX="184" layoutY="400" prefColumnCount="12" prefHeight="32" prefWidth="256" promptText="Ключ" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" id="data-line"/>
+  </children>
+</AnchorPane>
