@@ -1,0 +1,84 @@
+/* JavaFX CSS Style with -fx- prefix */
+
+.label
+{
+    -fx-text-fill: white;
+    -fx-font: 13 "Exo 2.0";
+}
+
+.table-view .label
+{
+    -fx-text-fill: #000;
+}
+
+.dark
+{
+    -fx-text-fill: #333;
+}
+
+.header
+{
+    -fx-font: 16 "Plumb";
+}
+
+.little
+{
+    -fx-font-size: 11;
+}
+
+.menu-bar
+{
+    -fx-background-color: black;
+    -fx-opacity: 0.5;
+    -fx-border-width: 2.0;
+}
+
+.menu-bar .menu-button:hover, .menu-bar .menu-button:focused, .menu-bar .menu-button:showing
+{
+    -fx-background: black;
+    -fx-opacity: 0.5;
+    -fx-text-fill: white;
+}
+
+.menu-item
+{
+    -fx-padding: 0em 0em 0em 0em;
+    -fx-text-fill: white;
+    -fx-background: darkgray;
+}
+
+.menu-item .label
+{
+    -fx-font-size: 14.0 pt;
+    -fx-text-fill: white;
+}
+
+.menu-item .label:hover
+{
+    -fx-font-size: 14.0 pt;
+    -fx-background: black;
+    -fx-text-fill: white;
+}
+
+.context-menu
+{
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: #333;
+    -fx-border-width: 0.2px;
+    -fx-border-color: black;
+}
+
+.text-input
+{
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-width: 0 0 1 0;
+}
+
+.button
+{
+    -fx-text-fill: white;
+    -fx-font: 12 "Plumb";
+    -fx-background-color: #1a1a1a;
+    -fx-background-radius: 0px;
+}

@@ -1,0 +1,39 @@
+name: localization
+version: 1.0.0
+deps:
+  jphp-core: '*'
+  jphp-json-ext: '*'
+
+devDeps:
+  dn-bundle-plugin: '*'
+
+sources:
+- src
+plugins:
+- Doc
+- Hub
+
+config:
+  ignore:
+  - /.github/**
+  - /sandbox/**
+  - /.idea/**
+  - /*.iml
+  - /.git/**
+  - /package.hub.yml
+  - /bundle/**
+  - /src-bundle/**
+  - /examples/**
+  - /dn-sources/**
+  - /.gitignore
+  - /README.MD
+  - /LICENSE
+
+develnext-bundle:
+  version: 1.0.0
+  name: Localization
+  author: GIGNIGHT
+  icon: "develnext/bundle/gignight/localization.png"
+  description: "Пакет для поддерживания мультиязычности"
+  group: "other"
+  class: "develnext\\bundle\\gignight\\LocalizationBundle"
