@@ -6,7 +6,7 @@ jppm add localization@git+https://github.com/GIGNIGHT/jphp-localization-ext
 ```
 
 ## Documentation
-* Read the [API Docs](http://github.com/GIGNIGHT/jphp-localization-ext/api-docs) guide
+* Read the [API Docs](https://github.com/GIGNIGHT/jphp-localization-ext/tree/master/api-docs) guide
 
 ## How to usage?
 
